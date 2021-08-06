@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial";
+}
+/* nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: violet;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30%;
+}
+nav>ul>li{
+    margin-left: 30px;
+    text-decoration: none;
+    list-style: none;
+    padding: 18px;
+}
+#nav p{
+    padding: 18px;
+} */
+
+.container {
+  margin-top: 150px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 80px;
+  border-radius: 15px;
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  position: relative;
+}
+h2 {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+label {
+  color: black;
+  font-size: 20px;
+}
+#Uname {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#Pass {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  padding-left: 8px;
+}
+#log {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
+}
+
+#button {
+  position: absolute;
+  right: 30vw;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
